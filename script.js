@@ -138,7 +138,7 @@ function getPrompts() {
     choiceArrey = choiceArrey.concat(ucLetters);
   }
 
-  if (confirm("Would you like NUMBERS in your password")) {
+  if (confirm("Would you like Numbers in your password")) {
     choiceArrey = choiceArrey.concat(numbers);
   }
   return true;
